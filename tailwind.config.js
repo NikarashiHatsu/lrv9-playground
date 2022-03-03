@@ -13,6 +13,12 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
         },
+        keyframes: {
+            burst: {
+                'from': { backgroundPosition: 'left' },
+                'to': { backgroundPosition: 'right' },
+            }
+        }
     },
 
     plugins: [require('@tailwindcss/forms')],
